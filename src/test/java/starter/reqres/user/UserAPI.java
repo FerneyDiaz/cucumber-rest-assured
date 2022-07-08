@@ -21,6 +21,7 @@ public class UserAPI {
                 .basePath(GET_USER_ENDPOINT)
                 .pathParam("id",id)
                 .get();
+        //
     }
 
     @Step("Save a new user with name {0} and job {1}")
