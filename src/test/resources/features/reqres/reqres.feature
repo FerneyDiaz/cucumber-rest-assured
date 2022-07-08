@@ -17,3 +17,5 @@ Feature: Request services from ReqRes
   Scenario: Delete an user
     When I delete an user with id
     Then The response code should be 204
+
+

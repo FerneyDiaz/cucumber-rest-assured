@@ -12,8 +12,7 @@ public class UserAPI {
     private static String GET_USER_ENDPOINT = "api/users/{id}";
     private static String POST_USER_ENDPOINT = "api/users/";
 
-    public static final String EMAIL = "'data'.'email'";
-    public static final String FIRST_NAME = "'data'.'first_name'";
+
 
     @Step("Fetch user by id {0}")
     public void fetchUserById(String id) {
@@ -48,4 +47,5 @@ public class UserAPI {
                 .pathParam("id",idUser)
                 .delete();
     }
+
 }
