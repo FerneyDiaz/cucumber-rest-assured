@@ -30,7 +30,7 @@ public class UserStepDefinitions {
 
     @Then("The response return an id")
     public void theResponseReturnAnId() {
-        restAssuredThat(response -> response.statusCode(201));
+        restAssuredThat(response -> response.statusCode(202));
     }
 
     @When("I delete an user with {}")
